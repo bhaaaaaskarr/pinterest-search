@@ -66,6 +66,33 @@
     </div>
 
     <script src="app.js"></script>
+    <!-- Chatbot Integration -->
+<script>
+    window.ChatbotConfig = {
+      token: "hdETm3WVi8en2s78",
+      baseUrl: "https://studio.slingo.ai",
+      systemVariables: {
+        // user_id: "OPTIONAL_USER_ID",
+        // conversation_id: "OPTIONAL_CONVERSATION_ID"
+      }
+    };
+  </script>
+  
+  <script 
+    src="https://studio.slingo.ai/embed.min.js" 
+    id="hdETm3WVi8en2s78" 
+    defer>
+  </script>
+  
+  <style>
+    #chatbot-bubble-button {
+      background-color: #1C64F2 !important;
+    }
+    #chatbot-bubble-window {
+      width: 24rem !important;
+      height: 40rem !important;
+    }
+  </style>
 </body>
 
 </html>
